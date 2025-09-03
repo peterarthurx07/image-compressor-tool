@@ -1,0 +1,87 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww29740\viewh18600\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 body \{\
+  font-family: Arial, sans-serif;\
+  background: #f4f4f4;\
+  color: #333;\
+  padding: 30px;\
+  margin: 0;\
+\}\
+\
+.container \{\
+  max-width: 600px;\
+  margin: auto;\
+  background: #fff;\
+  padding: 20px;\
+  border-radius: 8px;\
+  box-shadow: 0 0 10px #ccc;\
+\}\
+\
+h2 \{\
+  text-align: center;\
+\}\
+\
+#dropArea \{\
+  padding: 40px;\
+  border: 2px dashed #888;\
+  text-align: center;\
+  margin-bottom: 15px;\
+  border-radius: 8px;\
+  color: #555;\
+  cursor: pointer;\
+  transition: 0.3s ease;\
+\}\
+\
+#dropArea.dragover \{\
+  border-color: #4caf50;\
+  color: #4caf50;\
+  background: #f1fdf1;\
+\}\
+\
+input[type="file"], input[type="number"], select \{\
+  display: block;\
+  margin-top: 10px;\
+  width: 100%;\
+  padding: 6px;\
+  box-sizing: border-box;\
+\}\
+\
+.controls \{\
+  margin-top: 15px;\
+\}\
+\
+button \{\
+  margin-top: 15px;\
+  padding: 10px 16px;\
+  background: #4caf50;\
+  color: white;\
+  border: none;\
+  border-radius: 5px;\
+  cursor: pointer;\
+  width: 100%;\
+\}\
+\
+button:hover \{\
+  background: #45a049;\
+\}\
+\
+.progress-bar \{\
+  width: 0%;\
+  height: 20px;\
+  background: #4caf50;\
+  color: white;\
+  text-align: center;\
+  margin-top: 5px;\
+  border-radius: 5px;\
+  transition: width 0.3s;\
+\}\
+\
+#progressContainer \{\
+  margin-top: 20px;\
+\}\
+}
